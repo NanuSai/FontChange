@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Text number 1 settings">
+
+    <CheckBoxPreference
+
+        android:key="CHECKBOX_TEXT1_FONT1" android:title="Funky Signature"
+        android:summary="This is font number 1 "
+        android:defaultValue="Funky Signature.ttf"
+        ></CheckBoxPreference>
+
+    <CheckBoxPreference
+
+        android:key="CHECKBOX_TEXT1_FONT2" android:title="Lelushka_Personal_use"
+        android:summary="This is font number 2 "
+        android:defaultValue="Lelushka_Personal_use.otf"
+        ></CheckBoxPreference>
+
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_TEXT1_FONT3" android:title="Austere"
+            android:summary="This is font number 3 "
+            android:defaultValue="Austere (DEMO).ttf"
+            ></CheckBoxPreference>
+
+
+    <ListPreference android:key="FONT_SIZE_TEXT1"
+        android:title="Specify the size of your title"
+        android:dialogTitle="Choose any one of these sizes"
+        android:entries="@array/font_sizes"
+        android:entryValues="@array/font_sizes_values"
+        android:defaultValue="10">
+
+    </ListPreference>
+
+    </PreferenceCategory>
+
+
+
+
+    <PreferenceCategory android:title="Text number 2 settings">
+
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_TEXT2_FONT1" android:title="Funky Signature"
+            android:summary="This is font number 1 "
+            android:defaultValue="Funky Signature.ttf"
+            ></CheckBoxPreference>
+
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_TEXT2_FONT2" android:title="Lelushka_Personal_use"
+            android:summary="This is font number 2 "
+            android:defaultValue="Lelushka_Personal_use.otf"
+            ></CheckBoxPreference>
+
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_TEXT2_FONT3" android:title="Austere"
+            android:summary="This is font number 3 "
+            android:defaultValue="Austere (DEMO).ttf"
+            ></CheckBoxPreference>
+
+
+        <ListPreference android:key="FONT_SIZE_TEXT2"
+            android:title="Specify the size of your title"
+            android:dialogTitle="Choose any one of these sizes"
+            android:entries="@array/font_sizes"
+            android:entryValues="@array/font_sizes_values"
+            android:defaultValue="10">
+
+        </ListPreference>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Text number 3 settings">
+
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_TEXT3_FONT1" android:title="Funky Signature"
+            android:summary="This is font number 1 "
+            android:defaultValue="Funky Signature.ttf"
+            ></CheckBoxPreference>
+
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_TEXT3_FONT2" android:title="Lelushka_Personal_use"
+            android:summary="This is font number 2 "
+            android:defaultValue="Lelushka_Personal_use.otf"
+            ></CheckBoxPreference>
+
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_TEXT3_FONT3" android:title="Austere"
+            android:summary="This is font number 3 "
+            android:defaultValue="Austere (DEMO).ttf"
+            ></CheckBoxPreference>
+
+
+        <ListPreference android:key="FONT_SIZE_TEXT3"
+            android:title="Specify the size of your title"
+            android:dialogTitle="Choose any one of these sizes"
+            android:entries="@array/font_sizes"
+            android:entryValues="@array/font_sizes_values"
+            android:defaultValue="10">
+
+        </ListPreference>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
